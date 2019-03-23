@@ -1,0 +1,18 @@
+/*---- Navbar Hover Effect----- (At Last of File) ----- */
+ a, a:hover {
+     text-decoration: none;
+     color: white;
+}
+ .header a:hover{
+     color: #04e762;
+     text-shadow: 0 0 5px #04e762,
+                  0 0 10px #04e762,
+                  0 0 20px #04e762,
+                   0 0 40px #04e762;
+     padding: 0.7rem 1.1rem;
+     transition: text-shadow .15s ease-in-out;
+}
+ .navbar {
+     padding:0%;
+}
+/* ----------------------------------------------------- */
